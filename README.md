@@ -1,18 +1,47 @@
-# React + Vite
+# DAW – Evaluación 4: SPA con React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto del **Examen Final - SPA con React + Vite**, que consiste en crear una Single Page Application (SPA) consumiendo una **API pública**, utilizando **Zustand** para el estado global y **React Router** con layouts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Información General
 
-## React Compiler
+- **Nombre del proyecto:** JSON Placeholder – SPA Evaluación 4 DAW
+- **Repositorio:** https://github.com/josep-rivera/daw-evaluacion-4
+- **Deploy:** https://daw-evaluacion-4.vercel.app
+- **API utilizada:** [JSON Placeholder](https://jsonplaceholder.typicode.com/posts)
+- **Video demostrativo:** https://youtube.com
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 📦 Instalación y Ejecución
 
-## Expanding the ESLint configuration
+Clona el repositorio y entra a la carpeta del proyecto:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/josep-rivera/daw-evaluacion-4.git
+cd daw-evaluacion-4
+```
+
+Instala las dependencias:
+
+```bash
+npm install
+```
+
+Levanta el proyecto en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+Luego, abre la URL que Vite te muestre en la consola (por defecto suele ser `http://localhost:5173/`).
+
+---
+
+## 👤 Autor
+
+* **Nombre:** Josep Rivera
+* **GitHub:** [https://github.com/josep-rivera](https://github.com/josep-rivera)
+
+---
