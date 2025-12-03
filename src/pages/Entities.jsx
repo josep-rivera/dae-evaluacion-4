@@ -26,17 +26,16 @@ const Entities = () => {
     <section className="flex flex-col gap-6">
       <div className="mb-2">
         <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-1">
-          Listado de Pokémon
+          Listado de posts
         </h1>
         <p className="text-sm text-slate-500">
-          Explora el listado completo de Pokémon con paginación usando la
-          PokéAPI y Zustand.
+          Explora el listado completo de posts con paginación usando el api de JSON Placeholder y Zustand.
         </p>
       </div>
 
       {loading && (
         <div className="py-6 text-center text-slate-500 text-sm">
-          Cargando Pokémon...
+          Cargando informacion...
         </div>
       )}
 

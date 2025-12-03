@@ -11,7 +11,7 @@ const Header = () => {
             <FiGrid className="text-lg" />
           </div>
           <span className="font-semibold text-slate-700 text-lg tracking-tight">
-            PokeDex Explorer
+            JSON Placeholder API
           </span>
         </Link>
 
