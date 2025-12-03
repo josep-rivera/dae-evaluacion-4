@@ -38,7 +38,6 @@ const Contact = () => {
     e.preventDefault();
     if (!validate()) return;
 
-    // Simulación de envío
     setSent(true);
     setForm({
       name: "",
